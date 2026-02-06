@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /api
+
+# Sitemap location
+Sitemap: https://heritage.com/sitemap.xml
+
+# Crawl delay to prevent overloading
+Crawl-delay: 1
+
+# Specific rules for search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
